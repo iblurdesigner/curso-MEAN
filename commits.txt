@@ -1,3 +1,51 @@
+commit e3c37e7a4073736a9d6bd3868e1db57f8932dbca
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Feb 23 13:06:36 2018 -0500
+
+    Empezando la pantalla del signin
+
+commit dcb96f601d7d732fd2005d8288589cb02082430c
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Feb 20 09:19:51 2018 -0500
+
+    Como mostrar las respuestas en el listado
+
+commit e0f953edaf168383ddd40bab9d8440e63d55933e
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Feb 20 08:49:05 2018 -0500
+
+    Corrigiendo estilos en el formulario y toques finales
+
+commit 6d52d45c1c51420fe701676348571f9af153e4d7
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Feb 19 13:25:47 2018 -0500
+
+    Dando estilo al formulario de preguntas
+
+commit 4d224364ef68bf005a9afeaf17325589f2d95186
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Feb 19 13:01:38 2018 -0500
+
+    Agregando un formulario para respuestas
+
+commit e3f6f2d1c382dd55cc106b251b20b6e4b4973821
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Feb 19 12:26:48 2018 -0500
+
+    Agregndo el listado de respuestas a la pantalla de detalle
+
+commit 7bf9bbfcc47c5f192270263d59f8ca56c0c0b821
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Feb 19 11:41:00 2018 -0500
+
+    Incorporando angular2-moment al proyecto
+
+commit 86638c9fc1af7e0ce74229607779252c0012a37a
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Feb 19 11:05:54 2018 -0500
+
+    Corregido un problema que habia en questio.model.ts que no dejaba compilar / Estilo de detalle de la pregunta
+
 commit 618ae48323b649ede4d8bb8a173b935cf785c8a5
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Thu Feb 15 16:18:34 2018 -0500
