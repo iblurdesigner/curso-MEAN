@@ -1,3 +1,33 @@
+commit 5a71ae5eaeb7e3a47a379f4d8e717c5148634c87
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 1 10:44:23 2018 -0500
+
+    Crear la pantalla para cargar una nueva pregunta
+
+commit 54f21e2d860a9643c00c5f59f06eb44a3e9a23e0
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Feb 27 15:52:36 2018 -0500
+
+    Creando el componente para los listados de preguntas
+
+commit e7b89efdc7b9a6982ac8a53f6eb62abeb5dc131c
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Feb 27 12:39:28 2018 -0500
+
+    Agregado el signup
+
+commit f07b8db740a25c253f195c66741ee465cfc9141c
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Feb 26 16:05:22 2018 -0500
+
+    Creando el formulario de signin
+
+commit 73c06f8ec432f06c0873f5391771e0df536700ba
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Feb 23 13:08:06 2018 -0500
+
+    agregado el archivo de los commits (Esto no es parte de MEAN)
+
 commit e3c37e7a4073736a9d6bd3868e1db57f8932dbca
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Feb 23 13:06:36 2018 -0500
