@@ -56,24 +56,8 @@ export default [
     }
   },
   {
-    'name': 'babel',
-    'tags': ['javascript', 'transpiler'],
-    'versions': {
-      'svg': ['original', 'plain'],
-      'font': ['plain']
-    }
-  },
-  {
     'name': 'backbonejs',
     'tags': ['javascript', 'framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'behance',
-    'tags': ['social', 'website'],
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
@@ -112,22 +96,6 @@ export default [
     }
   },
   {
-    'name': 'cakephp',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'ceylon',
-    'tags': ['language'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'chrome',
     'tags': ['browser'],
     'versions': {
@@ -160,14 +128,6 @@ export default [
     }
   },
   {
-    'name': 'couchdb',
-    'tags': ['database'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'cplusplus',
     'tags': ['language'],
     'versions': {
@@ -192,14 +152,6 @@ export default [
     }
   },
   {
-    'name': 'cucumber',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'd3js',
     'tags': [],
     'versions': {
@@ -210,14 +162,6 @@ export default [
   {
     'name': 'debian',
     'tags': ['os', 'server'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'devicon',
-    'tags': ['iconset'],
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
@@ -264,51 +208,11 @@ export default [
     }
   },
   {
-    'name': 'electron',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark'],
-      'font': ['original', 'original-wordmark']
-    }
-  },
-  {
-    'name': 'elm',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'ember',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original-wordmark'],
-      'font': ['original-wordmark']
-    }
-  },
-  {
     'name': 'erlang',
     'tags': [],
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'express',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark'],
-      'font': ['original', 'original-wordmark']
-    }
-  },
-  {
-    'name': 'facebook',
-    'tags': ['auth'],
-    'versions': {
-      'svg': ['original', 'plain'],
-      'font': ['plain']
     }
   },
   {
@@ -324,14 +228,6 @@ export default [
     'tags': ['framework', 'css'],
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'gatling',
-    'tags': ['framework', 'testing'],
-    'versions': {
-      'svg': ['plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
     }
   },
@@ -376,22 +272,6 @@ export default [
     }
   },
   {
-    'name': 'google',
-    'tags': ['auth'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'gradle',
-    'tags': ['task-runner'],
-    'versions': {
-      'svg': ['plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'grunt',
     'tags': ['task-runner', 'nodejs'],
     'versions': {
@@ -405,14 +285,6 @@ export default [
     'versions': {
       'svg': ['plain'],
       'font': ['plain']
-    }
-  },
-  {
-    'name': 'handlebars',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark'],
-      'font': ['plain', 'plain-wordmark']
     }
   },
   {
@@ -456,34 +328,10 @@ export default [
     }
   },
   {
-    'name': 'intellij',
-    'tags': ['editor'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'ionic',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark'],
-      'font': ['original', 'original-wordmark']
-    }
-  },
-  {
     'name': 'java',
     'tags': ['programming', 'language'],
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'jasmine',
-    'tags': ['testing'],
-    'versions': {
-      'svg': ['plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
     }
   },
@@ -544,14 +392,6 @@ export default [
     }
   },
   {
-    'name': 'linkedin',
-    'tags': ['social', 'auth'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'linux',
     'tags': ['os'],
     'versions': {
@@ -565,14 +405,6 @@ export default [
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'mocha',
-    'tags': ['testing'],
-    'versions': {
-      'svg': ['plain'],
-      'font': ['plain']
     }
   },
   {
@@ -624,14 +456,6 @@ export default [
     }
   },
   {
-    'name': 'npm',
-    'tags': ['package', 'manager'],
-    'versions': {
-      'svg': ['original-wordmark'],
-      'font': ['original-wordmark']
-    }
-  },
-  {
     'name': 'oracle',
     'tags': ['database'],
     'versions': {
@@ -664,14 +488,6 @@ export default [
     }
   },
   {
-    'name': 'protractor',
-    'tags': ['framework', 'javascript'],
-    'versions': {
-      'svg': ['plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'postgresql',
     'tags': ['database'],
     'versions': {
@@ -682,14 +498,6 @@ export default [
   {
     'name': 'python',
     'tags': ['programming', 'language'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'pycharm',
-    'tags': ['editor'],
     'versions': {
       'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
@@ -736,14 +544,6 @@ export default [
     }
   },
   {
-    'name': 'rubymine',
-    'tags': ['editor'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'safari',
     'tags': ['browser'],
     'versions': {
@@ -757,30 +557,6 @@ export default [
     'versions': {
       'svg': ['original'],
       'font': ['original']
-    }
-  },
-  {
-    'name': 'sequelize',
-    'tags': ['database', 'language'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'sketch',
-    'tags': ['application'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'line', 'line-wordmark'],
-      'font': ['line', 'line-wordmark']
-    }
-  },
-  {
-    'name': 'slack',
-    'tags': ['chat'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
     }
   },
   {
@@ -800,35 +576,11 @@ export default [
     }
   },
   {
-    'name': 'stylus',
-    'tags': ['css', 'pre-processor'],
-    'versions': {
-      'svg': ['original'],
-      'font': ['original']
-    }
-  },
-  {
-    'name': 'swift',
-    'tags': ['language'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'symfony',
     'tags': ['framework'],
     'versions': {
       'svg': ['original', 'original-wordmark'],
       'font': ['original', 'original-wordmark']
-    }
-  },
-  {
-    'name': 'tomcat',
-    'tags': ['server'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'line', 'line-wordmark'],
-      'font': ['line', 'line-wordmark']
     }
   },
   {
@@ -848,34 +600,10 @@ export default [
     }
   },
   {
-    'name': 'twitter',
-    'tags': ['auth'],
-    'versions': {
-      'svg': ['original'],
-      'font': ['plain']
-    }
-  },
-  {
-    'name': 'typescript',
-    'tags': ['programming', 'transpiler'],
-    'versions': {
-      'svg': ['original', 'plain'],
-      'font': ['plain']
-    }
-  },
-  {
     'name': 'ubuntu',
     'tags': ['os'],
     'versions': {
       'svg': ['plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'vagrant',
-    'tags': ['platform'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
       'font': ['plain', 'plain-wordmark']
     }
   },
@@ -885,38 +613,6 @@ export default [
     'versions': {
       'svg': ['original', 'plain'],
       'font': ['plain']
-    }
-  },
-  {
-	  'name': 'visualstudio',
-	  'tags': ['editor'],
-	  'versions': {
-		  'svg': ['plain', 'plain-wordmark'],
-		  'font': ['plain', 'plain-wordmark']
-	  }
-  },
-  {
-    'name': 'vuejs',
-    'tags': ['framework'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark', 'line', 'line-wordmark'],
-      'font': ['plain', 'plain-wordmark', 'line', 'line-wordmark']
-    }
-  },
-  {
-    'name': 'webpack',
-    'tags': ['package', 'manager'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
-    'name': 'webstorm',
-    'tags': ['editor'],
-    'versions': {
-      'svg': ['original', 'original-wordmark', 'plain', 'plain-wordmark'],
-      'font': ['plain', 'plain-wordmark']
     }
   },
   {
@@ -936,14 +632,6 @@ export default [
     }
   },
   {
-    'name': 'yarn',
-    'tags': ['package', 'manager'],
-    'versions': {
-      'svg': ['original', 'original-wordmark'],
-      'font': ['plain', 'plain-wordmark']
-    }
-  },
-  {
     'name': 'yii',
     'tags': ['php', 'framework'],
     'versions': {
@@ -959,4 +647,4 @@ export default [
       'font': ['plain', 'plain-wordmark']
     }
   }
-]
+];
