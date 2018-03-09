@@ -10,6 +10,9 @@ import icons from './icons';
     i {
       font-size: 48px;
     }
+    small {
+      display: block;
+    }
   `]
 })
 
@@ -29,7 +32,9 @@ export class QuestionFormComponent {
   onSubmit(form: NgForm) {
     const q = new Question(
       form.value.title,
-      form.value.description
+      form.value.description,
+      new Date(),
+      form.value.icon
     );
     console.log(q);
   }
