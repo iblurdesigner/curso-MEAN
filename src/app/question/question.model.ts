@@ -14,7 +14,7 @@ export class Question {
     createAt?: Date,
     icon?: string
   ) {
-      this._id= '1';
+      this._id = '1';
       this.title = title;
       this.description = description;
       this.createAt = createAt;
