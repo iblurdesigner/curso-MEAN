@@ -23,6 +23,10 @@ import { QuestionService } from './question.service';
       right: 30px;
       font-size: 24px;
     }
+    .spinner {
+      display: flex;
+      justify-content: center;
+    }
   `],
   providers: [QuestionService]
 })
@@ -38,6 +42,7 @@ export class QuestionListComponent implements OnInit {
       .getQuestions()
       .then((questions: Question[]) => {
         this.questions = questions;
+        this.loading = false;
       });
   }
 }
