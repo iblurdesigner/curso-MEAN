@@ -30,10 +30,10 @@ export class QuestionDetailComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
       this.questionService
-      .getQuestion(params.id)
-      .then((question: Question) => {
-        this.question = question;
-        this.loading = false;
+        .getQuestion(params.id)
+        .then((question: Question) => {
+          this.question = question;
+          this.loading = false;
       });
     });
   }
