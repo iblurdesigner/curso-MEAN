@@ -4,7 +4,7 @@ import { Answer } from './answer.model';
 import { Question } from '../question/question.model';
 import { User } from '../auth/user.model';
 import { QuestionService } from '../question/question.service';
-import * as SweetScroll from 'sweet-scroll';
+import SweetScroll from 'sweet-scroll';
 
 @Component({
   selector: 'app-answer-form',
