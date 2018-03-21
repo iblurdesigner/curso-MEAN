@@ -5,6 +5,8 @@ import jwt from 'jsonwebtoken'
 const app = express.Router()
 const debug = new Debug('platzi-overflow:auth')
 
+const secret = 'miclavesecreta'
+
 const users = [
   {
     firstName: 'David',
