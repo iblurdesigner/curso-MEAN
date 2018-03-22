@@ -20,6 +20,20 @@ export class AuthService {
       this.currentUser = new User(email, null, firstName, lastName, userId);
     }
 }
+  signup(user: User) {
+    const body = JSON.stringify(user);
+    const headers = new Headers({ 'Content-Type': 'application/json' });
+    return this.http.post(urljoin(this.usersUrl, 'signup'), body, { headers })
+    .map((response: Response) => {
+      const json = response.json();
+      this.login(json);
+      return json;
+    })
+    .catch((error: Response) => {
+      console.log(error);
+      return Observable.throw(error.json());
+    });
+  }
 
   signin(user: User) {
     const body = JSON.stringify(user);
