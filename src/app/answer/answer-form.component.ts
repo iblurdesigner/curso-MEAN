@@ -32,7 +32,7 @@ export class AnswerFormComponent {
   }
 
   onSubmit(form: NgForm) {
-    if(!this.authService.isLoggedIn()){
+    if (!this.authService.isLoggedIn()) {
       this.router.navigateByUrl('/signin');
     }
     const answer = new Answer(
@@ -46,7 +46,7 @@ export class AnswerFormComponent {
           this.question.answers.unshift(a);
           this.sweetScroll.to('#title');
         },
-        error => console.log(error)
+        this.authService.handleError
       );
     form.reset();
   }
