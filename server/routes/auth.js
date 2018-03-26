@@ -2,7 +2,7 @@ import express from 'express'
 import Debug from 'debug'
 import jwt from 'jsonwebtoken'
 import { secret } from '../config'
-import { users, findUserByEmail } from '../middleware'
+import { User } from '../models'
 
 const app = express.Router()
 const debug = new Debug('platzi-overflow:auth')
@@ -11,9 +11,9 @@ function comparePasswords (providedPassword, userPassword) {
   return providedPassword === userPassword
 }
 
-app.post('/signin', (req, res, next) => {
+app.post('/signin', async (req, res, next) => {
   const { email, password } = req.body
-  const user = findUserByEmail(email)
+  const user = await User.findOne({ email })
 
   if(!user) {
     debug(`User with email ${email} not found`)
@@ -39,17 +39,24 @@ app.post('/signin', (req, res, next) => {
 const createToken = (user) => jwt.sign({ user }, secret, { expiresIn: 86400 })
 
 // /api/auth/signup
-app.post('/signup', (req, res) => {
+app.post('/signup', async (req, res) => {
   const { firstName, lastName, email, password } = req.body
-  const user = {
-    _id: +new Date(),
+  // const user = {
+  //   _id: +new Date(),
+  //   firstName,
+  //   lastName,
+  //   email,
+  //   password
+  // }
+  const u = new User ({
     firstName,
     lastName,
     email,
     password
-  }
+  })
   debug(`Creating new user: ${user}`)
-  users.push(user)
+  // users.push(user)
+  const user = await u.save()
   const token = createToken(user)
   res.status(201).json({
     message: 'User saved',
