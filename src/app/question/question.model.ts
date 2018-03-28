@@ -4,20 +4,20 @@ export class Question {
   _id?: string;
   title: string;
   description: string;
-  createAt?: Date;
+  createdAt?: Date;
   icon?: string;
   answers: Answer[];
 
   constructor(
     title: string,
     description: string,
-    createAt?: Date,
+    createdAt?: Date,
     icon?: string
   ) {
       this._id = '1';
       this.title = title;
       this.description = description;
-      this.createAt = createAt;
+      this.createdAt = createdAt;
       this.icon = icon;
       this.answers = [];
   }

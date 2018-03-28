@@ -3,9 +3,11 @@ import * as urljoin from 'url-join';
 import { environment } from '../../environments/environment';
 import { User } from './user.model';
 import { Http, Headers, Response } from '@angular/http';
+import 'rxjs/add/operator/toPromise';
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/Rx';
+// import 'rxjs/Rx';
 import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
 import { Router } from '@angular/router';
 import {MatSnackBar} from '@angular/material';
 

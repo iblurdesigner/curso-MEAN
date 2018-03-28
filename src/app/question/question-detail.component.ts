@@ -14,13 +14,6 @@ export class QuestionDetailComponent implements OnInit, OnDestroy {
   question?: Question;
   loading = true;
   sub: any;
-// export class QuestionDetailComponent {
-//   question: Question = new Question (
-//     'Esta es una nueva preguta sobre Android',
-//     'Miren tengo una duda sobre una aplicacion que estoy escribiendo para Android...',
-//     new Date,
-//     'devicon-android-plain'
-//   );
 
   constructor (
     private questionService: QuestionService,
