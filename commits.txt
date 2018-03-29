@@ -1,3 +1,231 @@
+commit a1ba12e960c912a89bb3be9b5e5301eae0ee9fd8
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 29 15:35:24 2018 -0500
+
+    Configurando nuestra app para el entorno productivo
+
+commit 3436a23661780beb503308c54161358e95c4af93
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 28 15:29:57 2018 -0500
+
+    Ordenando las preguntas en la home
+
+commit 1eff83a071b3d2b9941772703ccb41d6fe56d2b5
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 27 11:29:46 2018 -0500
+
+    Guardando una pregunta en la base de datos
+
+commit 2e8d51071fc6f11eb9faefb76286ab5628eedf2a
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 26 16:30:08 2018 -0500
+
+    Encriptando la contraseña del usuario
+
+commit 2af6b7a6d272948360889a6804b28ee0c230fb95
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 26 15:57:50 2018 -0500
+
+    Obteniendo una pregunta de la base de datos y conectando el signup con la BD
+
+commit 123153b71b91575ccabab11736ea72e77f111193
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 23 15:26:58 2018 -0500
+
+    Obteniendo todas las preguntas de la base de datos
+
+commit b642baa3c05809b07d2478e5cdda664a12af2c4f
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 23 13:03:57 2018 -0500
+
+    Estableciendo la conexión con la base de datos
+
+commit aacdbaca0bd4d388664b0f205f8591a6c67ae157
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 23 10:42:15 2018 -0500
+
+    Creando el modelo de pregunta
+
+commit 65bfa56e5b1f8884953a02603ad934f21e0321a9
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 22 16:28:01 2018 -0500
+
+    Creando el modelo de usuario y respuesta
+
+commit 439904f9c2fa8eed1d441ec885f56623899f1177
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 22 10:35:07 2018 -0500
+
+    Manejar el error del signin
+
+commit feff8fc5513387464a061411f35f5ced007986e9
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 22 08:31:39 2018 -0500
+
+    Autorizando usuarios para que puedan crear preguntas
+
+commit 79d9b0488ab05c805181f326913986c89ea1397d
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 21 11:05:18 2018 -0500
+
+    Creando la ruta de signup en el backend
+
+commit 755c4f9ba1a4a784fa65fa6489885b6db3503fc5
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 21 10:09:27 2018 -0500
+
+    Agregando el logout de usuarios a PlatziOverflow
+
+commit 03ad134a96b84277b545f0efba9bfb7a5d5f9e51
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 21 09:04:15 2018 -0500
+
+    Conectando el signin con el Backend
+
+commit be72224b9ed1ccb6b16a79b7efd5aec8312653c0
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 20 11:17:11 2018 -0500
+
+    Escribiendo nuestro servicio de autenticación
+
+commit 0d93c55d0831f94815fe20392e668f72fe33d0bd
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 20 09:35:54 2018 -0500
+
+    Creando un JSON web token para el usuario autenticado
+
+commit 6b726b6d1876e8765f49f53eb6aeac4929682c1f
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 19 15:45:18 2018 -0500
+
+    Creando la ruta de signin en el Backend
+
+commit 59afe9a93344b87dbb605931b5cec1d77c0e2308
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 19 12:42:54 2018 -0500
+
+    Enviando una respuesta hacia el Backend
+
+commit ee461122a30c48e4a9fd3fa58bcef0286146bf26
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 16 13:15:25 2018 -0500
+
+    Agregando el método para crear respuestas en el QuestionService
+
+commit b3dd5444780dd315d0179fdf4dafe18611415a63
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 16 12:58:30 2018 -0500
+
+    Agregando una ruta para crear una respuesta en el Backend
+
+commit 68e28b17a14b1fafe3e54bfcacf4f06863f3d734
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 16 11:57:13 2018 -0500
+
+    Enviando una pregunta hacia el Backend
+
+commit 427f4cd9617b34bfc3d95cbab36f3696d39ec3ff
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 15 16:08:25 2018 -0500
+
+    Agregando el método para crear preguntas en el QuestionService
+
+commit 096143befe136d140e651204d28e51306103396a
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 15 15:41:17 2018 -0500
+
+    Agregando una ruta para crear una pregunta en el Backend
+
+commit f0e446b4e0128fd51285fe0df3ae70787fdc5f49
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 15 11:34:30 2018 -0500
+
+    Obteniendo el detalle de una pregunta desde el Backend
+
+commit 66fd80bc892f3c39ea46c3ac2e917f9f18c9f313
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 15 10:40:03 2018 -0500
+
+    Agregando un spinner para la carga de preguntas
+
+commit 8c3ed1348ebac1d07ea324a2ca4ddaacb2dad5a6
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 15 09:52:18 2018 -0500
+
+    Conectando el Frontend de preguntas con nuestro Backend
+
+commit f35acad67a562c28239d02b510c73a2653d4e4b0
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 14 12:42:36 2018 -0500
+
+    Creando el servicio de preguntas
+
+commit 3ea73257c8224eed7fd2b9f55b729ec26cc5bdfa
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 14 09:47:10 2018 -0500
+
+    Creando un endpoint en la API para servir preguntas al cliente
+
+commit 4ed28e3603ebf3d779732233fb601551588c2754
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 13 16:08:04 2018 -0500
+
+    Instalación y primeros pasos con Express
+
+commit 4b07e1b7bebf841c31bba49b8ac9d73b9751d515
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 13 15:41:22 2018 -0500
+
+    Actualizado el babel preset
+
+commit d2a71a51c8f067ff5b0e65120e5a0ffbc9d2fb27
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 13 13:11:39 2018 -0500
+
+    Instalación y configuración del entorno de desarrollo de Backend con Babel
+
+commit 9b67226f96e7b5c1a5acbe4f4950abd13a9502da
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 12 13:06:57 2018 -0500
+
+    Conectando el listado de preguntas con el formulario de creación
+
+commit 4f83ffec1c32dbf637d5790ae688118a4d22d71f
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 12 12:31:55 2018 -0500
+
+    Conectando el listado de preguntas con la pantalla del detalle
+
+commit 7d878934908c2186a99d1eb2fa763f8a69cf0dc7
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 12 09:04:13 2018 -0500
+
+    Conectando la pantalla de registro con la de login
+
+commit 00a725f78f5270186d3538865d37f17da368f538
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 9 13:04:21 2018 -0500
+
+    Conectando nuestras pantallas con el router de Angular
+
+commit dc90e45f21b75c00ecf4b597d92376a0d62fe6f7
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 9 12:17:27 2018 -0500
+
+    Seleccionando un icono para la pregunta
+
+commit 4cfc050ca02c31ad3fbeefe64017754655704e50
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 6 12:54:19 2018 -0500
+
+    Agregando iconos al formulario de preguntas
+
+commit d5ffd40e01560553c426bfaac43470bb4133a3b7
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 1 11:09:33 2018 -0500
+
+    Crear formulario de carga de nueva pregunta
+
 commit 5a71ae5eaeb7e3a47a379f4d8e717c5148634c87
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Thu Mar 1 10:44:23 2018 -0500
